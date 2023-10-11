@@ -10,13 +10,8 @@ class Solution {
             nums[i] = String.valueOf(numbers[i]);
         }
 
-        Arrays.sort(nums, new Comparator<String>() {
-            @Override
-            public int compare(String a, String b) {
-                return b.repeat(4).compareTo(a.repeat(4));
-            }
-        });
-
+        Arrays.sort(nums, (a, b) -> b.repeat(4).compareTo(a.repeat(4)));
+        
         StringBuilder sb = new StringBuilder();
 
         for(String n : nums){
