@@ -8,6 +8,7 @@ def solution(numbers, target):
     
 def calculation(numbers, target, sum, depth):
     global answer
+    # until the last number
     if depth == len(numbers):
         # reach the target answer
         if sum == target:
