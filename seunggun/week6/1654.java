@@ -4,40 +4,47 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main7 {
+/**
+ * 백준 1654번
+ */
+public class Main {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken());
-        int[] times = new int[N];
-        for (int i = 0; i < times.length; ++i)
-            times[i] = Integer.parseInt(br.readLine());
 
-        long min = Long.MAX_VALUE;
-        for (int t : times) {
-            if (t < min) {
-                min = t;
+        int K = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken());
+
+        int[] lines = new int[K];
+        int max = -1;
+
+        for (int i = 0; i < lines.length; ++i) {
+            lines[i] = Integer.parseInt(br.readLine());
+            if (lines[i] > max) {
+                max = lines[i];
             }
         }
 
-        long maxTime = min * M;
-        long start = 0;
-        long end = maxTime;
+        long start = 1;
+        long end = max;
 
+        long result = 0;
         while (start <= end) {
-            long mid = (start + end) / 2;
-            long sum = 0;
-            for (int time : times) sum += mid / time;
+            long mid = start + end / 2;
 
-            if (M <= sum) {
+            int count = 0;
+            for (int line : lines) {
+                count += line / mid;
+            }
+            if (count < N) {
                 end = mid - 1;
             } else {
+                if (result < mid)
+                    result = mid;
                 start = mid + 1;
             }
         }
-
-        System.out.println(start);
+        System.out.println(result);
     }
 }
