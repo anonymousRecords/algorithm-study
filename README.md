@@ -16,6 +16,61 @@
 </table>
 
 ## 📌 알고리즘 스터디원
+<table>
+  <tr>
+    <td align="center" width="150px">
+      <a href="https://github.com/jjh5887" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/20182698?v=4" alt="정권호" />
+      </a>
+    </td>
+    <td align="center" width="150px">
+      <a href="https://github.com/SeungGun" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/54919474?v=4" alt="신승건" />
+      </a>
+    </td>
+    <td align="center" width="150px">
+      <a href="https://github.com/dd-jiyun" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/84395062?v=4" alt="이지윤" />
+      </a>
+    </td>
+    <td align="center" width="150px">
+      <a href="https://github.com/anonymousRecords" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/97885933?v=4" alt="민세림" />
+      </a>
+    </td>
+    <td align="center" width="150px">
+      <a href="https://github.com/yeon409" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/71324520?v=4" alt="유소연" />
+  </tr>
+  <tr>
+   <td align="center">
+      <a href="https://github.com/jjh5887" target="_blank">
+        정권호
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SeungGun" target="_blank">
+        신승건
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/dd-jiyun" target="_blank">
+        이지윤
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/anonymousRecords" target="_blank">
+        민세림
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/yeon409" target="_blank">
+        유소연
+      </a>
+    </td>
+  </tr>
+<table>
+
 
 ## 📌 알고리즘 스터디 방식
 ```
